@@ -4,7 +4,7 @@ function GetStarted()
     screen01.classList.add("ended");
     console.log("classe 'ended' adicionada");
     setTimeout(() => {
-        window.location.href = "YudaHouse/app.html"
+        window.location.href = "./app.html"
     }, 500);
 
 }
