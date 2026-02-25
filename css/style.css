@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Segoe UI, Arial, Sans-Serif;
+}
+
+body {
+  background-color: white;
+  color: slateblue;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.screen01 {
+  width: 95%;
+  height: 550px;
+  margin: 10% auto;
+  text-align: center;
+  align-content: center;
+}
+
+.screen01.ended {
+  transition: .5s ease;  
+  transform: translateX(60%);
+  opacity: 0%;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.screen01 button {
+  padding: 14px 24px;
+  border-radius: .5rem;
+  background: slateblue;
+  color: white;
+  font-weight: 400;
+  width: 70%;
+}
+
+.screen01 button:active {
+  opacity: 90%;
+  transform: scale(1.1);
+  transition: .1s ease;
+}
+
+
+
+i {
+    font-size: 25px;
+    color: slateblue;
+}
+
+button {
+    border: none;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 22px;
+    justify-content: space-between;
+    align-items: center;
+    color: slateblue;
+}
+
+.logoMark {
+    display: flex;
+    align-items: center;
+}
+
+.loginBtn button {
+    padding: 10px 20px;
+    border-radius: 1rem;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid slateblue;
+    color: slateblue;
+}
+
+.principalView {
+    margin: auto;
+    margin-top: 100px;
+    min-height: auto;
+    width: 100%;
+    border-radius: .5rem;
+    padding: 3px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scroll-snap-align: center;
+}
+
+.scrollView {
+    display: flex;
+    position: relative;
+    gap: 5px;
+    align-items: center;
+    padding: 2px;
+    width: 500%;
+    height: 250px;
+    scroll-snap-align: center;
+}
+
+.scrView {
+    scroll-snap-align: center;
+    background-color: slateblue;
+    text-align: center;
+    align-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+    border-radius: .8rem;
+}
